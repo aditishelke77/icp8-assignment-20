@@ -8,7 +8,7 @@ body{
     
 }
 .sidebar{
-    background-color: rgb(194, 230, 173);
+    background-color: rgb(179, 173, 230);
     width:220px;
 }
 .content{
@@ -19,7 +19,7 @@ body{
 .menu_item{
     background-color: #fff;
     margin:10px;
-    border-radius:5px;
+    border-radius:7px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@ body{
     text-decoration: none;
 }
 .active{
-    background-color:#626679;
+    background-color:#aca57b;
 }
 .menu_item:hover{
     background-color:#d9d9d9 ;
@@ -45,7 +45,7 @@ body{
       bottom:0;
       left:0;
       width:100%;
-      background-color: lightblue;
+      background-color: rgb(173, 230, 182);
       color:#fff;
       display:none;
   }
@@ -85,7 +85,7 @@ body{
 /* for tablet device*/
 @media screen and (min-width:769px) and (max-width:992px){
     .sidebar{
-        background-color: lightblue;
+        background-color: rgb(137, 70, 116);
         width:220px;
     }
 
@@ -104,14 +104,14 @@ body{
 /* for large device*/
 @media screen and (min-width:993px) and (max-width:1200px){
 .sidebar{
-    background-color: lightblue;
+    background-color: rgb(172, 143, 158);
     width:220px;
 }
 
 .menu_item{
     background-color: #fff;
     margin:10px;
-    border-radius:5px;
+    border-radius:15px;
     display: flex;
     align-items: center;
     justify-content: center;
